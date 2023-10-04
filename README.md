@@ -5,8 +5,30 @@
 
 ### for windows user
 
-1. [install vs code (insider)](https://code.visualstudio.com/insiders/)
-2. [install choco](/install_how_to/pnpm.txt)
-3. [install node](/install_how_to/pnpm.txt)
+0. need git or download this .zip
+
+#### 1. ENVs
+
+1. [install vs code (insider) (need ADMIN)](https://code.visualstudio.com/insiders/)
+2. [install choco (need ADMIN)](https://docs.chocolatey.org/en-us/choco/setup#install-with-powershell.exe)
+3. install node `choco install nodejs` **(need ADMIN)**
 4. [install pnpm](/install_how_to/pnpm.txt)
 
+#### 2. node_s
+
+0. cd to './'
+1. pnpm i
+
+### version
+
+- node:20
+
+### you need port
+
+- 45837
+
+## using
+
+### basic
+
+`pnpm start`
