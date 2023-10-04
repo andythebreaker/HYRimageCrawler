@@ -6,5 +6,7 @@
 ### for windows user
 
 1. [install vs code (insider)](https://code.visualstudio.com/insiders/)
-2. 
+2. [install choco](/install_how_to/pnpm.txt)
+3. [install node](/install_how_to/pnpm.txt)
+4. [install pnpm](/install_how_to/pnpm.txt)
 
