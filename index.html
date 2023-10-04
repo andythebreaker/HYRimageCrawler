@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hello World!</title>
+</head>
+
+<body>
+  <h1>HYR爬蟲</h1>
+  <iframe src="http://127.0.0.1:45837"></iframe>
+  <h4>按下按鈕後，應該會GUI無反，正常!</h4>
+  <p>
+    <button id="main">Get Result</button>
+  <div id="result"></div>
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>說明</th>
+        <th>val</th>
+        <th>操作</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>width</td>
+        <td><input type="text" id="width" value="900"></td>
+        <td><button id="setwidth">set Width</button></td>
+      </tr>
+      <tr>
+        <td>height</td>
+        <td><input type="text" id="height" value="900"></td>
+        <td><button id="setheight">set Height</button></td>
+      </tr>
+      <tr>
+        <td>stat</td>
+        <td><input type="text" id="stat" value="1"></td>
+        <td><button id="setstat">set stat</button></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- You can also require other files to run in this process -->
+  <script src="./renderer.js"></script>
+  <footer>
+    <h3>We are using Node.js <span id="node-version"></span>,
+      Chromium <span id="chrome-version"></span>,
+      and Electron <span id="electron-version"></span>.</h3>
+    <h6>MIT andythebreaker</h6>
+    <a href="https://github.com/entrptaher/electron-quickstart-puppeteer">this is base on entrptaher@github</a>
+  </footer>
+</body>
+
+</html>
