@@ -17,7 +17,7 @@
 #### 2. node_s
 
 0. cd to './'
-1. pnpm i
+1. cmd `pnpm i`
 
 ### version
 
@@ -31,7 +31,7 @@
 
 ### basic start
 
-`pnpm start`
+cmd `pnpm start`
 
 ### before start
 
@@ -56,4 +56,19 @@ unit : ms
 3. do login or WTF U want...
 4. 注意分頁只能在1號，如果有網頁預設click on URL 的 action 是 open in 新分頁，suggest copy the URL of 分頁2...ect to 分頁1 。 **(分頁起始is 0)**
 5. then set stat to 1 and press BTON
-6. it will auto click (next page)
+6. it will auto click (next page) and screen shoot (save to local)
+
+### about width height
+
+- in GUI have text box for setting viewport, suggest set to > **chrome F12 network image -> size**
+- in point 3 section "after start", if some DOM is out of reach, adjust width height in GUI
+- the adjustment will be appily every ㄆ
+
+  ## dev
+
+  - index.html: GUI **ㄇ**
+  - up.html: image store (not for user)
+  - main.js: :electron:
+  - renderer.js: use by ㄇ (exec @ ~= nodejs space) **(puppeteer is in here)**
+  - preload.js: not used in *this*
+  - sv.js: stort image
