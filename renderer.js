@@ -96,7 +96,7 @@ async function scraper(url) {
 }
 
 document.querySelector("#main").addEventListener("click", async function () {
-  const result = await scraper("https://ebook.hyread.com.tw/bookDetail.jsp?id=311928");
+  const result = await scraper("https://example.com");
   document.querySelector("#result").innerHTML = result;
 });
 
